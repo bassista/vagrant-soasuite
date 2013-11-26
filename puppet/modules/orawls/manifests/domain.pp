@@ -24,6 +24,7 @@ define orawls::domain (
   $repository_database_url    = hiera('repository_database_url'   , undef), #jdbc:oracle:thin:@192.168.50.5:1521:XE
   $repository_prefix          = hiera('repository_prefix'         , "DEV"),
   $repository_password        = hira('repository_password'        , "oracle"),
+  )
 {
   $domain_dir = "${middleware_home_dir}/user_projects/domains"
   $app_dir    = "${middleware_home_dir}/user_projects/applications"
