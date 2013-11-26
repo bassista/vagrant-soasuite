@@ -20,4 +20,6 @@ doc/
 *.zip
 *.jar
 *.vagrant
+*.gz
+*.rpm
 
